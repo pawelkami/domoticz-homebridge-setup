@@ -1,0 +1,36 @@
+{
+"bridge": {
+
+"name": "Homebridge",
+
+"username": "ENTER_YOUR_MAC_CAPITAL_LETTERS",
+
+"port": 51826,
+
+"pin": "031-45-154"
+
+},
+
+"platforms": [
+{
+            "platform": "eDomoticz",
+            "name": "eDomoticz",
+            "server": "127.0.0.1",
+            "port": "8080",
+            "ssl": 0,
+            "roomid": 0,
+            "mqttenable": 1,
+            "mqttserver": "127.0.0.1",
+            "mqttport": "1883",
+            "mqttauth": 0,
+            "mqttuser": "",
+            "mqttpass": ""
+        }
+],
+
+"accessories": [
+
+]
+}
+
+
